@@ -1,0 +1,145 @@
+Model,Rectifier,MCC,Confusion Matrix,Classification Report
+Logistic Regression,No Rectifier,0.739718697,"[[85295    12]
+ [   51    85]]","              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     85307
+           1       0.88      0.62      0.73       136
+
+    accuracy                           1.00     85443
+   macro avg       0.94      0.81      0.86     85443
+weighted avg       1.00      1.00      1.00     85443
+"
+Logistic Regression,SMOTE,0.217473697,"[[83041  2266]
+ [   10   126]]","0       1.00      0.97      0.99     8530  1       0.05      0.93      0.10       136
+
+    accuracy                           0.97     85443
+   macro avg       0.53      0.95      0.54     85443
+weighted avg       1.00      0.97      0.99     85443
+"
+Logistic Regression,Near Miss,0.03860021,"[[48453 36854]
+ [   12   124]]","
+
+    accuracy                           0.57     85443
+   macro avg       0.50      0.74      0.37     85443
+weighted avg       1.00      0.57      0.72     85443
+"
+k-Nearest Neighbors,No Rectifier,0.805976045,"[[85290    17]
+ [   33   103]]","
+
+           0       1.00      1.00      1.00     85307
+           1       0.86      0.76      0.80       136
+
+    accuracy                           1.00     85443
+   macro avg       0.93      0.88      0.90     85443
+weighted avg       1.00      1.00      1.00     85443
+"
+k-Nearest Neighbors,SMOTE,0.619994609,"[[85145   162]
+ [   14   122]]","
+
+           0       1.00      1.00      1.00     85307
+           1       0.43      0.90      0.58       136
+
+    accuracy                           1.00     85443
+   macro avg       0.71      0.95      0.79     85443
+weighted avg       1.00      1.00      1.00     85443
+"
+k-Nearest Neighbors,Near Miss,0.071464238,"[[68494 16813]
+ [   12   124]]","              precision    recall  f1-score   support
+
+           0       1.00      0.80      0.89     85307
+           1       0.01      0.91      0.01       136
+
+    accuracy                           0.80     85443
+   macro avg       0.50      0.86      0.45     85443
+weighted avg       1.00      0.80      0.89     85443
+"
+Support Vector Machine,No Rectifier,0.024983718,"[[48442 36865]
+ [   35   101]]","              precision    recall  f1-score   support
+
+           0       1.00      0.57      0.72     85307
+           1       0.00      0.74      0.01       136
+
+    accuracy                           0.57     85443
+   macro avg       0.50      0.66      0.36     85443
+weighted avg       1.00      0.57      0.72     85443
+"
+Support Vector Machine,SMOTE,-0.296723806,"[[  472 84835]
+ [   82    54]]","              precision    recall  f1-score   support
+
+           0       0.85      0.01      0.01     85307
+           1       0.00      0.40      0.00       136
+
+    accuracy                           0.01     85443
+   macro avg       0.43      0.20      0.01     85443
+weighted avg       0.85      0.01      0.01     85443
+"
+Support Vector Machine,Near Miss,0.035897564,"[[44036 41271]
+ [    9   127]]","              precision    recall  f1-score   support
+
+           0       1.00      0.52      0.68     85307
+           1       0.00      0.93      0.01       136
+
+    accuracy                           0.52     85443
+   macro avg       0.50      0.73      0.34     85443
+weighted avg       1.00      0.52      0.68     85443
+"
+Random Forest,No Rectifier,0.871398005,"[[85301     6]
+ [   27   109]]","              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     85307
+           1       0.95      0.80      0.87       136
+
+    accuracy                           1.00     85443
+   macro avg       0.97      0.90      0.93     85443
+weighted avg       1.00      1.00      1.00     85443
+"
+Random Forest,SMOTE,0.859117684,"[[85285    22]
+ [   17   119]]","              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     85307
+           1       0.84      0.88      0.86       136
+
+    accuracy                           1.00     85443
+   macro avg       0.92      0.94      0.93     85443
+weighted avg       1.00      1.00      1.00     85443
+"
+Random Forest,Near Miss,0.007908219,"[[ 4346 80961]
+ [    1   135]]","              precision    recall  f1-score   support
+
+           0       1.00      0.05      0.10     85307
+           1       0.00      0.99      0.00       136
+
+    accuracy                           0.05     85443
+   macro avg       0.50      0.52      0.05     85443
+weighted avg       1.00      0.05      0.10     85443
+"
+Extra Trees,No Rectifier,0.871842185,"[[85300     7]
+ [   26   110]]","              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     85307
+           1       0.94      0.81      0.87       136
+
+    accuracy                           1.00     85443
+   macro avg       0.97      0.90      0.93     85443
+weighted avg       1.00      1.00      1.00     85443
+"
+Extra Trees,SMOTE,0.866479525,"[[85290    17]
+ [   19   117]]","              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     85307
+           1       0.87      0.86      0.87       136
+
+    accuracy                           1.00     85443
+   macro avg       0.94      0.93      0.93     85443
+weighted avg       1.00      1.00      1.00     85443
+"
+Extra Trees,Near Miss,0.004341901,"[[ 2952 82355]
+ [    2   134]]","              precision    recall  f1-score   support
+
+           0       1.00      0.03      0.07     85307
+           1       0.00      0.99      0.00       136
+
+    accuracy                           0.04     85443
+   macro avg       0.50      0.51      0.04     85443
+weighted avg       1.00      0.04      0.07     85443
+"
